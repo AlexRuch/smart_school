@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ОБУЧЕНИЕ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/education.js"></script>
+</head>
+
+<body>
+  <section class="learning-block">
+    <div class="learning-header">
+      <h2>ОБУЧЕНИЕ</h2>
+    </div>
+    <div class="learning-content">
+      <div class="learning-content-navigation">
+        <ul>
+          <li>Математика</li>
+          <li>Физика</li>
+        </ul>
+      </div>
+      <div class="learning-content-test">
+        <!--<h3>Выберите предмет</h3>-->
+        <h3>Математика</h3>
+        <h4 id="title">Тест: ДЕЙСТВИТЕЛЬНЫЕ ЧИСЛА</h4>
+        <div class="learning-content-questions">
+          <fieldset class="question-block">
+            <legend id="legend"></legend>
+            <div class="question-block-item" id="input_form">
+              <label for="in">Ответ:</label>
+              <input type="text" id="in" name="feature" />
+            </div>
+            <button type="button" id="btn_answer" value="1" onClick="checkAnswer()">Готово</button>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
